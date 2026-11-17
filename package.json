@@ -1,0 +1,24 @@
+{
+  "name": "pr-buddy-js",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anefiox/pr-buddy-js.git"
+  },
+  "engines": {
+    "node": ">=22.5"
+  },
+  "bin": {
+    "prbuddy-js": "./bin/prbuddy.mjs"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "diff": "8.0.3",
+    "semver": "7.8.6",
+    "typescript": "5.9.3"
+  }
+}
